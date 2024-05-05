@@ -1,0 +1,16 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  th {
+    border: 2px solid black;
+  }
+  td {
+    border: 2px solid black;
+  }
+  #PassReqs {
+    color: red;
+  }
+  #TaCConf {
+    color: red;
+  }

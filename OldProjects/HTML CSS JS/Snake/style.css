@@ -1,0 +1,36 @@
+html, body {
+    height: 500;
+    width: 500;
+  }
+  
+  #canvas {
+    background-color: #33b9de;
+  }
+  
+  #Left {
+    text-align: center;
+    border-left: 10px solid green;
+    height: 400px;
+    position: absolute;
+    left: 7px; 
+  }
+  #Top {
+    border-bottom:10px solid green;
+    margin-top:0px;
+    width: 450px;
+    position: absolute;
+  }
+  #Bottom {
+    border-bottom:10px solid green;
+    margin-top:390px;
+    width: 450px;
+    position: absolute;
+  }
+  #Right {
+    text-align: center;
+    border-right: 10px solid green;
+    height: 400px;
+    position: absolute;
+    left: 448px; 
+  }
+  

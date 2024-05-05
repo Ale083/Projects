@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    display: grid;
+    text-align: center;
+    place-content: center;
+    background: lightblue;
+    font-family: monospace;
+    color: black;
+  }
+  
+  td {
+    height: 25px;
+    width: 20px;
+    border: 2px solid black;
+    font-size: 10px;
+    text-align: center
+  }
+  td:hover {
+    background-color:#f06e65;
+    color: #000000;
+  }

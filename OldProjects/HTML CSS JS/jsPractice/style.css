@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    text-align:center;
+  }
+  
+  h1 {
+    background-color: black;
+    color: white;
+  }
+  
+  #yellow {
+    color: yellow;
+  }
+  
+  #blue {
+    color: #3d65db;
+  }
+  
+  #Homework {
+    left: 20px;
+    color: black;
+  }
+  .text {
+    text-decoration: green solid underline;
+    text-decoration-thickness: 5px;
+  }

@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: cyan;
+  }
+  #underscores {
+    color: gray;
+  }
+  #guessedLettersTitle {
+    color: darkblue;
+  }
+  
+  #Loser {
+    display:none;
+  }
+  
+  #Winner {
+    display:none;
+  }

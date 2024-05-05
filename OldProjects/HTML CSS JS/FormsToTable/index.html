@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ <!--
+  - You can use br instead or <p> 
+  -->
+  <form>
+    <label for="FirstName">First Name</label>
+    <input placeholder='your first name' type="text" name="FirstName" id="firstName"/>
+    <p></p>
+    <label for="MiddleName">Middle Name</label>
+    <input type="text" name="MiddleName" id="middleName"/>
+    <p></p>
+    <label for="LastName">Last Name</label>
+    <input type="text" name="LastName" id="lastName"/>
+    <p></p>
+    <label for="BirthDate">Birth Date</label>
+    <input type="date" name="BirthDate" id="birthDate"/>
+    <p></p>
+    <label for="Email">Email</label>
+    <input type="email" name="Email" id="email"/>
+    <p></p>
+    <label for="Password">Password</label>
+    <input type="password" name="Password" id="password"/>
+    <div id="PassReqs">
+      Your password must be at least 8 characters long and contain numbers and letters
+    </div>
+    <p></p>
+    <label for="TaC">Do you agree to Terms and Conditions?</label>
+    <input required type="checkbox" name="TaC" id="TaC"/>
+    <div id="TaCConf">
+
+    </div>
+    <p></p>
+    <input value='Submit' type="submit" name="Submit" id="submit" />
+  </form>
+  <table>
+    <tr>
+      <th>
+        Id
+      </th>
+      <th>
+        First Name
+      </th>
+      <th>
+        Middle Name
+      </th>
+      <th>
+        Last Name
+      </th>
+      <th>
+        Birth Date
+      </th>
+      <th>
+        Email
+      </th>
+      <th>
+        Password
+      </th>
+    </tr>
+    <tr>
+      <td id="IdTable">
+
+      </td>
+      <td id="FNTable">
+        
+      </td>
+      <td id="MNTable">
+      
+      </td>
+      <td id="LNTable">
+      
+      </td>
+      <td id="BDTable">
+        
+      </td>
+      <td id="EmailTable">
+        
+      </td>
+      <td id="PassTable">
+        
+      </td>
+    </tr>
+  </table>
+
+<!--
+  - The password has to be at least 8 characters long
+  - It must contain a combination of letters and numbers at least
+  - Tell the user these rules, and if a rule is not met, tell them which one.
+  - On submission of the form, prevent the screen from refreshing, add a new row in the table with the content filled out. 
+  - The id of the row is created automatically
+  -->
+
+
+
+  
+  
+  <script src="script.js"></script>
+</body>
+
+</html>

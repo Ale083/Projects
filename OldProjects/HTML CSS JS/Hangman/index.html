@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Titulo</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div id="playingDIV">
+  <h2> Guess a letter </h2>
+  <input id ="letterGuessed" maxlength="1" type="text"/>
+  <!-- above is the input "settings" -->
+  <p id="underscores"></p>
+  <h3 id = guessedLettersTitle> Wrong Letters Guessed: </h3>
+  <p id="guessedLettersHTML"></p>
+  <h2>Tries</h2>
+  <h3 id=triesHTML></h3>
+<script src="script.js"></script>
+  </div>
+
+  <div id="Loser">
+    <h1>
+      <b>
+        You lost, what a loser...
+      </b>
+    </h1>
+    <h2>The word was:</h2>
+    <h3 id="secretWordHTML"></h3>
+  </div>
+
+  <div id="Winner">
+    <h1>
+      <b>
+        You won, Congrats!
+      </b>
+    </h1>
+    <h2>
+      The tries you had left were:
+    </h2>
+    <h2 id="triesLeftHTML"></h2>
+  </div>
+</body>
+
+</html>
